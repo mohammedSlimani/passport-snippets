@@ -1,10 +1,10 @@
-const router = require('express').Router;
+const router = require('express').Router();
 
 router.get('/login',(req,res)=>{
     res.render('login');
 });
 
-router.get('/lougout',(req,res)=>{
+router.get('/logout',(req,res)=>{
     //hadnle this with passport
     res.send("loggin out");
 })
